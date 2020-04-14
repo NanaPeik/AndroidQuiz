@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">Lecture3</string>
+  <string name="question1">1. Who is an author of painting "The Broken Column".</string>
+  <string name="question2">2. An american juzz trumpeter, bandleader and composer in 20th century.</string>
+  <string name="question3">3. Some month have 31 days, others have 30 days, How many have 28 days?</string>
+  <string name="question4">4. What is th capital of Uruguay?</string>
+  <string name="question5">5. Who developed divice-Electric power generation, invented ligth bulb?</string>
+  <string name="question6">6. Who is the "King of Poets" in Georgia?</string>
+  <string name="question7">7. Where is the hotest place on the earth?</string>
+</resources>

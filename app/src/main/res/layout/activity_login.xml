@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="32dp"
+  tools:context=".LoginActivity">
+
+  <EditText
+    android:id="@+id/username"
+    android:layout_marginTop="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Username"></EditText>
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:textSize="20dp"
+      android:onClick="login"
+      android:background="@color/forback"
+      android:text="Login"></Button>
+
+  <TextView
+      android:textSize="32dp"
+      android:textColor="@color/DarkMagenta"
+      android:layout_gravity="center"
+      android:layout_marginTop="32dp"
+      android:id="@+id/pointOfExistingusername"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"></TextView>
+
+  <Button
+      android:id="@+id/tryagainid"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      android:onClick="TryAgain"
+      android:textSize="20dp"
+      android:background="@color/forback"
+      android:text="Try Again"></Button>
+</LinearLayout>

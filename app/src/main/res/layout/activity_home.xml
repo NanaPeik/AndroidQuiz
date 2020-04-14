@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="32dp"
+    tools:context=".HomeActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      android:id="@+id/line1"
+      android:gravity="center"
+      android:layout_marginTop="32dp">
+    <TextView
+        android:id="@+id/usernameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"></TextView>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="'s Last Point is"
+      android:textSize="30dp"></TextView>
+
+    <TextView
+      android:id="@+id/resultid"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:textColor="@color/colorPrimaryDark"
+      android:textSize="30dp"></TextView>
+  </LinearLayout>
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      android:layout_below="@+id/line1"
+      android:layout_marginTop="32dp"
+      android:layout_centerHorizontal="true"
+    android:onClick="logout"
+      android:textSize="20dp"
+      android:background="@color/forback"
+    android:text="Try Again"></Button>
+
+
+</RelativeLayout>
